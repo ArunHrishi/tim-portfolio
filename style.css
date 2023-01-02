@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&family=Roboto:wght@300&display=swap'); 
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.menu{
+    background-color: rgb(110, 43, 226);
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+}
+.link{
+    list-style: none;
+    display: inline;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* pseudo class - hover */
+.link a:hover{
+    color: #000;
+}
+
+#pro{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+#title{
+    font-family: 'Chivo Mono', monospace;
+    font-size: 50px;
+    margin-top: 12px;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#home{
+    background-image: linear-gradient(to right, rgb(174, 159, 252),white,white,white,rgb(174, 159, 252));
+}
+
+#mail{
+    margin-top: 20px;
+}
+
+#mail a{
+    padding-top: 12px;
+    text-decoration: none;
+    color: coral;
+}
+
+#about h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 56px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+
+.para{
+    width: 1000px;
+    text-align: justify;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about{
+    background-image: linear-gradient(to right, rgb(174, 159, 252),white,white,white,rgb(174, 159, 252));
+    padding-bottom: 15px;
+}
+
+iframe{
+    padding-top: 50px;
+}
+
+#videos{
+    background-image: linear-gradient(to right, rgb(174, 159, 252),white,white,white,rgb(174, 159, 252));
+    padding-bottom: 50px;
+}
+
+#books{
+    background-image: linear-gradient(to right, rgb(174, 159, 252),white,white,white,rgb(174, 159, 252));
+    padding-bottom: 50px;
+}
+
+.bk{
+    margin-top: 40px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+#contact{
+    background-image: linear-gradient(to right, rgb(174, 159, 252),white,white,white,rgb(174, 159, 252));
+    padding-bottom: 40px;
+}
+
+.soc{
+    padding-top: 30px;
+}
+
+.fade{
+    padding: 15px;
+}
+
+.fade:hover{
+    opacity: 0.5;
+    color: blue;
+}
